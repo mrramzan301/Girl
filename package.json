@@ -1,0 +1,16 @@
+{
+  "name": "zara-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Zara WhatsApp Bot with Pairing Code Web UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "pino": "^8.16.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
